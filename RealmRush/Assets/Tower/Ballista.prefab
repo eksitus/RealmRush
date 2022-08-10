@@ -47,7 +47,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weapon: {fileID: 3144582324300694500}
-  target: {fileID: 0}
 --- !u!1 &4295279633983504495
 GameObject:
   m_ObjectHideFlags: 0
@@ -3837,7 +3836,7 @@ ParticleSystem:
     maxCollisionShapes: 256
     quality: 0
     voxelSize: 0.5
-    collisionMessages: 0
+    collisionMessages: 1
     collidesWithDynamic: 1
     interiorCollisions: 0
   TriggerModule:

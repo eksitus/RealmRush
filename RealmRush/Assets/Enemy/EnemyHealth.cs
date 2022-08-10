@@ -6,7 +6,7 @@ public class EnemyHealth : MonoBehaviour
 {
     [SerializeField] int maxHitPoint = 5;
 
-    int currentHitPoint = 0;
+    [SerializeField] int currentHitPoint = 0;
 
     
 
@@ -18,8 +18,17 @@ public class EnemyHealth : MonoBehaviour
 
     private void OnParticleCollision(GameObject other)
     {
-        Debug.Log("Before hit: " + currentHitPoint);
+
+        ProcessHit();
+        
+    }
+
+    void ProcessHit()
+    {
         currentHitPoint--;
-        Debug.Log("After hit: " + currentHitPoint);
+        if (currentHitPoint<=0)
+        {
+            Destroy(gameObject);
+        }
     }
 }
