@@ -7,6 +7,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3827138009626006589, guid: 9982f581adf7047d89553e8fd98c981e, type: 3}
+      propertyPath: m_text
+      value: 0, 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3827138009626006589, guid: 9982f581adf7047d89553e8fd98c981e, type: 3}
+      propertyPath: m_fontColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3827138009626006589, guid: 9982f581adf7047d89553e8fd98c981e, type: 3}
+      propertyPath: m_fontColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3827138009626006589, guid: 9982f581adf7047d89553e8fd98c981e, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4278190335
+      objectReference: {fileID: 0}
     - target: {fileID: 6196808371400682528, guid: 9982f581adf7047d89553e8fd98c981e, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.7071068
@@ -74,6 +90,18 @@ PrefabInstance:
     - target: {fileID: 7098193743725493751, guid: 9982f581adf7047d89553e8fd98c981e, type: 3}
       propertyPath: m_Name
       value: Tile_RoadStraight90
+      objectReference: {fileID: 0}
+    - target: {fileID: 7571642414338889433, guid: 9982f581adf7047d89553e8fd98c981e, type: 3}
+      propertyPath: changedColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7571642414338889433, guid: 9982f581adf7047d89553e8fd98c981e, type: 3}
+      propertyPath: changedColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7571642414338889433, guid: 9982f581adf7047d89553e8fd98c981e, type: 3}
+      propertyPath: changedColor.r
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9982f581adf7047d89553e8fd98c981e, type: 3}
