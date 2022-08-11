@@ -9,12 +9,17 @@ public class EnemyMover : MonoBehaviour
     [SerializeField] [Range(0f,5f)] float speed = 1f;
 
 
-    void Start()
+    void OnEnable()
     {
+        /* Use OnEnable instead of Start in order to reset the object
+        * and spawn at starting point.
+        */
+
+
         FindPath();
         ReturnToStart();
         StartCoroutine(FollowPath());
-
+          
 
     }
 
@@ -54,7 +59,7 @@ public class EnemyMover : MonoBehaviour
 
         }
 
-        Destroy(gameObject);
+        gameObject.SetActive(false); // if we destroy, gameobject won't return to pool
     }
 
 

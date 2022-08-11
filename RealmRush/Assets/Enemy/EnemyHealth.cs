@@ -11,8 +11,11 @@ public class EnemyHealth : MonoBehaviour
     
 
     // Start is called before the first frame update
-    void Start()
+    void OnEnable()
     {
+        /* Use OnEnable instead of Start in order to reset the object
+        * and spawn with maxHitPoint again.
+        */
         currentHitPoint = maxHitPoint;
     }
 
@@ -28,7 +31,7 @@ public class EnemyHealth : MonoBehaviour
         currentHitPoint--;
         if (currentHitPoint<=0)
         {
-            Destroy(gameObject);
+            gameObject.SetActive(false); // if we destroy, gameobject won't return to pool
         }
     }
 }
