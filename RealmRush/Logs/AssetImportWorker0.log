@@ -1685,3 +1685,27 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 891.327613 seconds.
+  path: Assets/Tiles/Tile.prefab
+  artifactKey: Guid(0e92b689849b643edb39a82be09cce56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Tile.prefab using Guid(0e92b689849b643edb39a82be09cce56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa435841764a99835fbbba194844c910') in 0.108244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Tiles/Tile_RoadStraight.prefab
+  artifactKey: Guid(9982f581adf7047d89553e8fd98c981e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Tile_RoadStraight.prefab using Guid(9982f581adf7047d89553e8fd98c981e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cc6cb754a55c4139f6a8e70039c8454') in 0.021896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Tiles/Tile_RoadCorner180.prefab
+  artifactKey: Guid(359592144de23444e9315599067a4195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Tile_RoadCorner180.prefab using Guid(359592144de23444e9315599067a4195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2c0b5562265bf951f4218d947feb383') in 0.021258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 89.226231 seconds.
+  path: Assets/AssetPacks/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ffe2fd69c72d1158626c991a084a48e') in 0.331784 seconds 

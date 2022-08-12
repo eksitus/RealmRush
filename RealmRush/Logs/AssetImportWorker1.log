@@ -1660,3 +1660,27 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2530.393782 seconds.
+  path: Assets/Tiles/Tile_RoadCorner.prefab
+  artifactKey: Guid(37563a6d1fafb4ed5bb8610377edb354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Tile_RoadCorner.prefab using Guid(37563a6d1fafb4ed5bb8610377edb354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f068a954e0a54e852e256523149f2de') in 0.108693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Tiles/Tile_RoadStraight90.prefab
+  artifactKey: Guid(524b5e73817ba4408bc6eaad560f59e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Tile_RoadStraight90.prefab using Guid(524b5e73817ba4408bc6eaad560f59e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7ba2e05424564fd3485ba7186a93b86') in 0.022166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Tiles/Tile_RoadCorner90.prefab
+  artifactKey: Guid(e0c4b7f4b32684b29badc46fe03d9804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Tile_RoadCorner90.prefab using Guid(e0c4b7f4b32684b29badc46fe03d9804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcf20b82f4b8067f65cc517817f71c91') in 0.020894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Tiles/Tile_RoadCorner270.prefab
+  artifactKey: Guid(6701067330e154b98ad2300f01424a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Tile_RoadCorner270.prefab using Guid(6701067330e154b98ad2300f01424a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2aaa1e4e5d11d8a1356a38b54ce9459') in 0.020228 seconds 
