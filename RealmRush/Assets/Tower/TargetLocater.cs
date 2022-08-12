@@ -38,10 +38,7 @@ public class TargetLocater : MonoBehaviour
                 maxDistance = targetDistance;
             }
             
-
-
         }
-
 
         target = closestTarget;
 

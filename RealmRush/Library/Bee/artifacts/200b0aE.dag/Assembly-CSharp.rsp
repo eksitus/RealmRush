@@ -353,13 +353,15 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/Bank/Bank.cs"
 "Assets/Enemy/Enemy.cs"
 "Assets/Enemy/EnemyHealth.cs"
 "Assets/Enemy/EnemyMover.cs"
 "Assets/Enemy/ObjectPool.cs"
-"Assets/Scripts/CoordinateLabel.cs"
-"Assets/Scripts/Waypoint.cs"
+"Assets/Tiles/CoordinateLabel.cs"
+"Assets/Tiles/Waypoint.cs"
 "Assets/Tower/TargetLocater.cs"
+"Assets/Tower/Tower.cs"
 -langversion:9.0
 
 /deterministic
