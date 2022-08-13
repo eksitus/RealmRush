@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1440
     height: 900
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Game
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 75
+  controlID: 28
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 76
+  controlID: 29
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,7 +169,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 77
+  controlID: 30
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -206,7 +206,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: SceneView
+  m_Name: GameView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -217,12 +217,12 @@ MonoBehaviour:
     height: 526.5
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 12}
+  m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 12}
   - {fileID: 14}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -331,7 +331,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 0}
+      snapOffset: {x: 0, y: 25}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: unity-scene-view-toolbar
@@ -485,7 +485,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 0
-      snapOffset: {x: 0, y: 0}
+      snapOffset: {x: 0, y: 25}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/Particles
@@ -501,9 +501,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 53.966076, y: 47.41627, z: -30.446655}
+    m_Target: {x: 376.4202, y: 188.16217, z: 295.2171}
     speed: 2
-    m_Value: {x: 53.966076, y: 47.41627, z: -30.446655}
+    m_Value: {x: 376.4202, y: 188.16217, z: 295.2171}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -550,13 +550,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 1
   m_Rotation:
-    m_Target: {x: 0.41184163, y: -0.009299287, z: 0.0042031384, w: 0.91119695}
+    m_Target: {x: 0.121188864, y: 0.013692559, z: -0.001672125, w: 0.9925336}
     speed: 2
-    m_Value: {x: 0.41184214, y: -0.009299298, z: 0.0042031435, w: 0.9111981}
+    m_Value: {x: 0.121188864, y: 0.013692559, z: -0.001672125, w: 0.9925336}
   m_Size:
-    m_Target: 3.166561
+    m_Target: 408.27618
     speed: 2
-    m_Value: 3.46458
+    m_Value: 408.27618
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -612,9 +612,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 724dfeff
-      m_LastClickedID: -111246
-      m_ExpandedIDs: b229feffa069feff94ccfeff96d6feff48f2feffbc5effff185fffffce67ffffd269ffff866affff0c9cffff40dcffff30fbffff1e5a0000725a0000d2740000
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 2c48ffff6e48ffff405bffff2e5effff705effff4271ffff0ae7ffffbaeaffffcaeaffff32fbffff005c00005e5c0000ae5d0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -699,7 +699,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -771,22 +771,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/AssetPacks/VoxelCastle/Prefabs
+    - Assets/Bank
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 60
   m_LastFolders:
-  - Assets/AssetPacks/VoxelCastle/Prefabs
+  - Assets/Bank
   m_LastFoldersGridSize: 60
   m_LastProjectPath: /Users/uvay/Desktop/projectOfTutor/RealmRush/RealmRush
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 28850000
-    m_LastClickedID: 34088
-    m_ExpandedIDs: 00000000ec5b0000ee5b0000065c000000ca9a3b
+    m_SelectedIDs: d6610000
+    m_LastClickedID: 25046
+    m_ExpandedIDs: 00000000a2610000a461000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -814,7 +814,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ec5b0000ee5b0000f05b0000
+    m_ExpandedIDs: 00000000a2610000a4610000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
