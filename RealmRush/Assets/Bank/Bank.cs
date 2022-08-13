@@ -12,12 +12,14 @@ public class Bank : MonoBehaviour
 
     [SerializeField] int currentBalance;
     [SerializeField] TextMeshProUGUI displayBalance;
+    [SerializeField] TextMeshProUGUI winText;
 
     public int CurrentBalance { get { return currentBalance; } }
 
     private void Awake()
     {
         currentBalance = startingBalace;
+        winText.enabled = false;
     }
 
 
@@ -29,6 +31,11 @@ public class Bank : MonoBehaviour
     public void Deposit(int amount)
     {
         currentBalance += Mathf.Abs(amount);
+        if (currentBalance >= 400)
+        {
+            Win();
+            Invoke("ReloadScene", 1f);
+        }
     }
 
     public void Withdraw(int amount)
@@ -37,8 +44,10 @@ public class Bank : MonoBehaviour
 
         if (currentBalance<0)
         {
-            ReloadScene();
+            Lose();
+            Invoke("ReloadScene" ,1f);
         }
+        
     }
 
     void ReloadScene()
@@ -51,5 +60,16 @@ public class Bank : MonoBehaviour
     {
         displayBalance.text = "Gold: " + currentBalance;
     }
-   
+
+    void Win()
+    {
+        winText.text = "You Win!";
+        winText.enabled = true;
+    }
+
+    void Lose()
+    {
+        winText.text = "You Lose!";
+        winText.enabled = true;
+    }
 }
