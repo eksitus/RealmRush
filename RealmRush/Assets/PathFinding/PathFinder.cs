@@ -5,11 +5,20 @@ using UnityEngine;
 
 public class PathFinder : MonoBehaviour
 {
-    [SerializeField] Node currentSearchNode;
+    [SerializeField] Vector2Int startCoord;
+    [SerializeField] Vector2Int destinationCoord;
+
+    Queue<Node> frontier = new Queue<Node>();
+    Dictionary<Vector2Int, Node> reached = new Dictionary<Vector2Int,Node>(); 
+
+
+    Node currentSearchNode;
+    Node startNode;
+    Node destinationNode;
 
     Vector2Int[] directions = { Vector2Int.right, Vector2Int.left, Vector2Int.up, Vector2Int.down };
     GridManager gridManager;
-    Dictionary<Vector2Int, Node> grid;
+    Dictionary<Vector2Int, Node> grid = new Dictionary<Vector2Int, Node>();
 
     private void Awake()
     {
@@ -18,11 +27,15 @@ public class PathFinder : MonoBehaviour
         {
             grid = gridManager.Grid;
         }
+
+        startNode = new Node(startCoord, true);
+        destinationNode = new Node(destinationCoord, true);
+
     }
 
     void Start()
     {
-        ExploreNeighbors();
+        BreadthFirstSearch();
     }
 
     private void ExploreNeighbors()
@@ -36,14 +49,41 @@ public class PathFinder : MonoBehaviour
             if (grid.ContainsKey(neighborCoords))
             {
                 neighbors.Add(grid[neighborCoords]);
-
-                //TODO: Remove after testing
-
-                grid[neighborCoords].isExplored = true;
-                grid[currentSearchNode.coordinates].isPath = true;
             }
 
         }
+        foreach (Node neighbor in neighbors)
+        {
+            if (!reached.ContainsKey(neighbor.coordinates) && neighbor.isWalkable)
+            {
+                reached.Add(neighbor.coordinates, neighbor);
+                frontier.Enqueue(neighbor);
+            }
+        }
 
     }
+
+    void BreadthFirstSearch()
+    {
+        bool isRunning = true;
+        frontier.Enqueue(startNode);
+        reached.Add(startCoord, startNode);
+
+
+        while (frontier.Count > 0 && isRunning)
+        {
+            currentSearchNode = frontier.Dequeue(); //remove and return
+            currentSearchNode.isExplored = true;
+            ExploreNeighbors();
+
+            if (currentSearchNode.coordinates == destinationCoord)
+            {
+                isRunning = false;
+            }
+        }
+
+
+    }
+
+
 }
