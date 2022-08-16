@@ -3005,7 +3005,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6506560577761328160, guid: 0e92b689849b643edb39a82be09cce56, type: 3}
       propertyPath: isPlaceable
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8207144918751622342, guid: 0e92b689849b643edb39a82be09cce56, type: 3}
       propertyPath: m_Name
@@ -3409,8 +3409,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81556f691bd2a48fabbc782eee7d5f30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startCoordinates: {x: 0, y: 0}
-  destinationCoordinates: {x: 3, y: 2}
+  startCoordinates: {x: 3, y: 3}
+  destinationCoordinates: {x: 8, y: 0}
 --- !u!4 &310468943 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8207144918751622343, guid: 0e92b689849b643edb39a82be09cce56, type: 3}
@@ -7177,7 +7177,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6506560577761328160, guid: 0e92b689849b643edb39a82be09cce56, type: 3}
       propertyPath: isPlaceable
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8207144918751622342, guid: 0e92b689849b643edb39a82be09cce56, type: 3}
       propertyPath: m_Name
@@ -8568,7 +8568,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6506560577761328160, guid: 0e92b689849b643edb39a82be09cce56, type: 3}
       propertyPath: isPlaceable
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8207144918751622342, guid: 0e92b689849b643edb39a82be09cce56, type: 3}
       propertyPath: m_Name
@@ -12629,7 +12629,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6506560577761328160, guid: 0e92b689849b643edb39a82be09cce56, type: 3}
       propertyPath: isPlaceable
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8207144918751622342, guid: 0e92b689849b643edb39a82be09cce56, type: 3}
       propertyPath: m_Name
@@ -15890,7 +15890,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52e4d1bd88df3404abf1b064fcd17fde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gridSize: {x: 5, y: 5}
+  gridSize: {x: 10, y: 10}
 --- !u!4 &1520299555
 Transform:
   m_ObjectHideFlags: 0
@@ -16774,7 +16774,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6506560577761328160, guid: 0e92b689849b643edb39a82be09cce56, type: 3}
       propertyPath: isPlaceable
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8207144918751622342, guid: 0e92b689849b643edb39a82be09cce56, type: 3}
       propertyPath: m_Name
