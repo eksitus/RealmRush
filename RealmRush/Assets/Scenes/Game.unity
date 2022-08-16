@@ -3409,8 +3409,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81556f691bd2a48fabbc782eee7d5f30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startCoord: {x: 0, y: 1}
-  destinationCoord: {x: 3, y: 2}
+  startCoordinates: {x: 0, y: 0}
+  destinationCoordinates: {x: 3, y: 2}
 --- !u!4 &310468943 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8207144918751622343, guid: 0e92b689849b643edb39a82be09cce56, type: 3}
@@ -8645,7 +8645,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8207144918751622343, guid: 0e92b689849b643edb39a82be09cce56, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 20
+      value: 19.999784
       objectReference: {fileID: 0}
     - target: {fileID: 8207144918751622343, guid: 0e92b689849b643edb39a82be09cce56, type: 3}
       propertyPath: m_LocalPosition.y
